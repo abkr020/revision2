@@ -2,14 +2,18 @@
   "name": "revision2-backend",
   "version": "1.0.0",
   "description": "revision 2",
+  "type": "module",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "dev": "nodemon src/index.js"
   },
   "keywords": [
     "revision",
     "2"
   ],
   "author": "abhishek",
-  "license": "ISC"
+  "license": "ISC",
+  "devDependencies": {
+    "nodemon": "^3.1.0"
+  }
 }
